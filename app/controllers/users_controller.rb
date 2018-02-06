@@ -15,7 +15,6 @@ class UsersController < ApplicationController
 
   def home
     @user = find_by_id
-    render :home
   end
 
   private
